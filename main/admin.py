@@ -1,3 +1,13 @@
 from django.contrib import admin
+from .models import TestApi
 
-# Register your models here.
+
+class TestApiAdmin(admin.ModelAdmin):
+    list_display = ('id', 'title', 'date', 'check')
+    list_display_links = ('id', 'title')
+    search_fields = ('id', 'title', 'date', 'check')
+    list_editable = ('done',)
+    list_filter = ('done',)
+
+
+admin.site.register(TestApi, TestApiAdmin)
