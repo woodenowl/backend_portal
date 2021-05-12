@@ -21,7 +21,6 @@
     - Скачиваем zip [отсюда](https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100)
     - Запускаем ```redis-server.exe```
     - Запускаем ```redis-cli.exe```
-    - Пишем во второй консоли ```ping```, если верулось ```PONG```, то всё окей
 - The end
 
 ## Стек технологий
