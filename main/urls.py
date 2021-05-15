@@ -1,4 +1,6 @@
 from rest_framework import routers
+from django.contrib import admin
+from django.urls import path, include
 from .api import TestApiViewSet, TestUserApiViewSet
 
 
@@ -17,3 +19,7 @@ routers.register(
 )
 
 urlpatterns = routers.urls
+urlpatterns += [
+    path('admin_local/', admin.site.urls),
+    path('local', include('local.urls')),
+]
