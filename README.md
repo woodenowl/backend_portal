@@ -34,8 +34,9 @@ html, css, js, Vue
 localhost :)
 
 ## Контакты
+- [Telegram](https://t.me/snowfox_x)
 - mail: il.nordsky@gmail.com
-- vk: [Ilya Basisty](https://vk.com/ilnord)
+- [vk](https://vk.com/ilnord)
 
 ## Лицензия
 [MIT](https://choosealicense.com/licenses/mit/)
